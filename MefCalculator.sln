@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MefCalculatorContract", "MefCalculatorContract\MefCalculatorContract.csproj", "{67AE88ED-24A9-46CC-947F-E5AF6EBDE5F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MefCompositionHelper", "MefCompositionHelper\MefCompositionHelper.csproj", "{D4D56F26-B6C0-4FE5-BB82-E95A005D23F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Components", "Components", "{D8E705C4-0403-4FA5-BB26-32D11104A366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorAdd", "Components\CalculatorAdd\CalculatorAdd.csproj", "{8FA0F6F1-CA28-4647-BEEC-D23F947F5B30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorDivide", "Components\CalculatorDivide\CalculatorDivide.csproj", "{7B8A5CFC-A740-42F7-8D96-16625BAE6B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorMultiply", "Components\CalculatorMultiply\CalculatorMultiply.csproj", "{DA838F0A-0CCE-442C-9C14-5F156979AA3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorSubtract", "Components\CalculatorSubtract\CalculatorSubtract.csproj", "{0CDAB767-6698-465A-9408-9F2566B0C0F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MefCalculatorUI", "MefCalculatorUI\MefCalculatorUI.csproj", "{FD06BA87-FCF7-4583-9526-78234A956DAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67AE88ED-24A9-46CC-947F-E5AF6EBDE5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AE88ED-24A9-46CC-947F-E5AF6EBDE5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AE88ED-24A9-46CC-947F-E5AF6EBDE5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AE88ED-24A9-46CC-947F-E5AF6EBDE5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D56F26-B6C0-4FE5-BB82-E95A005D23F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D56F26-B6C0-4FE5-BB82-E95A005D23F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D56F26-B6C0-4FE5-BB82-E95A005D23F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D56F26-B6C0-4FE5-BB82-E95A005D23F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA0F6F1-CA28-4647-BEEC-D23F947F5B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA0F6F1-CA28-4647-BEEC-D23F947F5B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA0F6F1-CA28-4647-BEEC-D23F947F5B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA0F6F1-CA28-4647-BEEC-D23F947F5B30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8A5CFC-A740-42F7-8D96-16625BAE6B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8A5CFC-A740-42F7-8D96-16625BAE6B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8A5CFC-A740-42F7-8D96-16625BAE6B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8A5CFC-A740-42F7-8D96-16625BAE6B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA838F0A-0CCE-442C-9C14-5F156979AA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA838F0A-0CCE-442C-9C14-5F156979AA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA838F0A-0CCE-442C-9C14-5F156979AA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA838F0A-0CCE-442C-9C14-5F156979AA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CDAB767-6698-465A-9408-9F2566B0C0F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CDAB767-6698-465A-9408-9F2566B0C0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CDAB767-6698-465A-9408-9F2566B0C0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CDAB767-6698-465A-9408-9F2566B0C0F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD06BA87-FCF7-4583-9526-78234A956DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD06BA87-FCF7-4583-9526-78234A956DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD06BA87-FCF7-4583-9526-78234A956DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD06BA87-FCF7-4583-9526-78234A956DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FA0F6F1-CA28-4647-BEEC-D23F947F5B30} = {D8E705C4-0403-4FA5-BB26-32D11104A366}
+		{7B8A5CFC-A740-42F7-8D96-16625BAE6B0B} = {D8E705C4-0403-4FA5-BB26-32D11104A366}
+		{DA838F0A-0CCE-442C-9C14-5F156979AA3C} = {D8E705C4-0403-4FA5-BB26-32D11104A366}
+		{0CDAB767-6698-465A-9408-9F2566B0C0F8} = {D8E705C4-0403-4FA5-BB26-32D11104A366}
+	EndGlobalSection
+EndGlobal

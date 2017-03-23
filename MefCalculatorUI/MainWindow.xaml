@@ -1,0 +1,22 @@
+﻿<Window x:Class="MefCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MefCalculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="317.347" Width="370.796">
+    <Grid Margin="0,0,2,0">
+        <StackPanel Margin="16,17,10,0" HorizontalAlignment="Center" Width="263" Height="259" VerticalAlignment="Top">
+            <Label x:Name="label" Content="Value 1:"/>
+            <TextBox x:Name="value1_textBox" TextWrapping="Wrap" ToolTip="Value 1" Height="22"/>
+            <Label x:Name="label_Copy" Content="Value 2:"/>
+            <TextBox x:Name="value2_textBox" TextWrapping="Wrap" ToolTip="Value 2" Height="20"/>
+            <Label x:Name="label_Copy2" Content="Function:"/>
+            <ComboBox x:Name="comboBox" SelectionChanged="comboBox_SelectionChanged" ToolTip="Function" Height="27" HorizontalAlignment="Right" Width="263"/>
+            <Label x:Name="label_Copy1" Content="Result:"/>
+            <TextBox x:Name="result_textBox" TextWrapping="Wrap" IsEnabled="False" ToolTip="Result" Height="33" Margin="0"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
